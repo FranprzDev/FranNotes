@@ -1,0 +1,2 @@
+
+![[int triple.png]]

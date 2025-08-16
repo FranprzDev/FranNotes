@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "885d6128e7b1c4ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fbac70b850cb4f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c337754fc6f2ebf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Demostraciones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Demostraciones"
+            }
+          },
+          {
+            "id": "8af2a442f506412a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UNIDAD 10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UNIDAD 10"
+            }
+          },
+          {
+            "id": "8ada352a550453ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programa FullStack 2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Programa FullStack 2025"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "89b6ffcd99c6fc2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba3c1c2d4833c917",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f9550854bd061ba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e09bdcfd01067b59",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4e92ea845b87aadb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1d2e3fbcff286bf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b10eb1d837ad34f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac4a12875591d993",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cálculo Diferencial/Unidad 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Unidad 1"
+            }
+          },
+          {
+            "id": "546aabded89198b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cálculo Diferencial/Unidad 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Unidad 1"
+            }
+          },
+          {
+            "id": "e7b482f9b9993311",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b2a3e9fd2ca84733",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cálculo Diferencial/Unidad 1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Unidad 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "publish:Publish changes...": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "8ada352a550453ef",
+  "lastOpenFiles": [
+    "Repaso.md",
+    "AM2 - Cálculo Integral.md",
+    "Demostraciones.md",
+    "Etapas de Automatización RespuestosShops.md",
+    "Imagenes/Pasted image 20250806032243.png",
+    "UNIDAD 10.md",
+    "Imagenes/Pasted image 20250806022823.png",
+    "Imagenes/int triple.png",
+    "Imagenes/Pasted image 20250806032420.png",
+    "Imagenes/Pasted image 20250806032313.png",
+    "Imagenes/Pasted image 20250806032254.png",
+    "Integrales.md",
+    "Imagenes/Pasted image 20250806032414.png",
+    "Imagenes/Pasted image 20250806032407.png",
+    "Imagenes/Pasted image 20250806032358.png",
+    "Imagenes/Pasted image 20250806032356.png",
+    "Programa FullStack 2025.md",
+    "Horarios.md",
+    "Migración - 17-04-25.md",
+    "Untitled.canvas",
+    "Untitled",
+    "Cálculo Diferencial/Unidad 5.md",
+    "Cálculo Diferencial/Unidad 4.md",
+    "Cálculo Diferencial/Unidad 3.md",
+    "Cálculo Diferencial/Unidad 2.md",
+    "Cálculo Diferencial/Unidad 1.md",
+    "Ecuaciones Diferenciales/Unidad 22.md",
+    "FLOR.md",
+    "Cálculo Integral/Unidad 15.md",
+    "Cálculo Integral/Unidad 16.md",
+    "Cálculo Integral/Unidad 14.md",
+    "Cálculo Integral/Unidad 13.md",
+    "Cálculo Integral/Unidad 19.md",
+    "Cálculo Integral/Unidad 20.md",
+    "Cálculo Integral/Unidad 21.md",
+    "excali/Integral de Línea.md",
+    "excaliraro/Unidad 20- error.md",
+    "excali",
+    "excaliraro",
+    "Merged",
+    "Recording 20250306042532.webm",
+    "Untitled 1",
+    "Ecuaciones Diferenciales",
+    "Cálculo Integral",
+    "Cálculo Diferencial",
+    "Imagenes"
+  ]
+}

@@ -1,0 +1,1 @@
+La necesidad de los números complejos surge de la necesidad de encontrar un número tal que satisfazca la ecuación polinómica x^2 + 1 = 0; pero es imposible encontrar un número así en los reales de ahí nace el uso de **i**.

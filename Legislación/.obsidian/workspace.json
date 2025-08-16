@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "c4ecbef2ac77a9c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c98833d1692e00a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dff417793397144",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Segundo Parcial/Unidad 11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unidad 11"
+            }
+          },
+          {
+            "id": "b021963a5aea9017",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Segundo Parcial/Unidad 11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unidad 11"
+            }
+          },
+          {
+            "id": "7e5a44bf2386aadf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "320deee34ceede96",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5a3e5f6fd987eb74",
+    "type": "split",
+    "children": [
+      {
+        "id": "22147aff93d2f4d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74b7b3b78cccaafc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fc9e61fcd90a660c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c3d3bcc18237604d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "67ea432f8b9a5fbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8912e2df920fc265",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "204bebfe6c73089e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Primera Revisión/Legislación.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Legislación"
+            }
+          },
+          {
+            "id": "08cba10859eccb2f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Primera Revisión/Legislación.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Legislación"
+            }
+          },
+          {
+            "id": "2dc77355ad5d8dc3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1a27213e0e6bd3da",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Primera Revisión/Legislación.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Legislación"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "clipper-catalog:Show all clippings": false
+    }
+  },
+  "active": "b021963a5aea9017",
+  "lastOpenFiles": [
+    "Rebase.md",
+    "Pasted image 20250707103002.png",
+    "Segundo Parcial/Unidad 11.md",
+    "Segundo Parcial/Unidad 7.md",
+    "Primera Reu - Notas 24-6-25.md",
+    "Segundo Parcial/Unidad 10.md",
+    "Segundo Parcial/Unidad 9.md",
+    "Segundo Parcial/Unidad 8.md",
+    "Pasted image 20250624191256.png",
+    "Segundo Parcial/Unidad 6.md",
+    "Img/Pasted image 20250521000043.png",
+    "Segundo Parcial",
+    "Img/Pasted image 20250520033720.png",
+    "Img",
+    "Primer Parcial/Parcial.md",
+    "Primer Parcial/U5 La Constitución Nacional. Sistema Normativo.md",
+    "Primer Parcial/U3 Objeto de Derecho.md",
+    "Primer Parcial/U2 Sujeto de Derecho.md",
+    "Img/Pasted image 20250520000803.png",
+    "Primer Parcial/U1 El Derecho.md",
+    "Primer Parcial/U4.md",
+    "Primera Revisión/Legislación.md",
+    "Img/Pasted image 20250520010754.png",
+    "Primer Parcial",
+    "Primera Revisión/Unidad 3.md",
+    "Primera Revisión/Unidad 2.md",
+    "Primera Revisión/NotebookLM Mind Map (5).png",
+    "Primera Revisión/NotebookLM Mind Map (4).png",
+    "NotebookLM Mind Map (1) 1.png",
+    "Primera Revisión/NotebookLM Mind Map (3).png",
+    "Legislación.md",
+    "Primera Revisión"
+  ]
+}

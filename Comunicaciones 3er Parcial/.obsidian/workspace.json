@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "08d7c716b8583cc0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c55e15b656e01dbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4ac683e4e5cff68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hamming Manual de Usuario.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hamming Manual de Usuario"
+            }
+          },
+          {
+            "id": "e579f06bccc76afc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hamming Manual de Usuario.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hamming Manual de Usuario"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "47616462743fd4c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "105938f4d8d163d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62964140309c0314",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cffea0bd2f29b1ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#IMPORTANTE",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f16c2032f40b6295",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6b243cd32c99d3d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bcb272030654844",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17185b75703f5526",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "U10 - Imagenes/Pasted image 20241107052920.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Pasted image 20241107052920"
+            }
+          },
+          {
+            "id": "2e6b65221edea77b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "U10 - Imagenes/Pasted image 20241107052920.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pasted image 20241107052920"
+            }
+          },
+          {
+            "id": "2600eb538c96694e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "36c1088c468d3d9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "U10 - Imagenes/Pasted image 20241107052920.png"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pasted image 20241107052920"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e579f06bccc76afc",
+  "lastOpenFiles": [
+    "img/Pasted image 20241122015834.png",
+    "Untitled.md",
+    "img",
+    "Hamming Manual de Usuario.md",
+    "img/Pasted image 20241206000850.png",
+    "img/Pasted image 20241206000814.png",
+    "img/Pasted image 20241205234719.png",
+    "img/Pasted image 20241205234228.png",
+    "img/Pasted image 20241205234023.png",
+    "img/Pasted image 20241205232821.png",
+    "img/Pasted image 20241129035032 1.png",
+    "img/Pasted image 20241129035032.png",
+    "img/Pasted image 20241122022804.png",
+    "img/Pasted image 20241122022631.png",
+    "U5 - Manual de Usuario.md",
+    "U7 - Cuestionario - Transmission Mode.md",
+    "D.md",
+    "Unidad 7.md",
+    "Unidad 9.md",
+    "Unidad 10.md",
+    "Unidad 8.md",
+    "U10 - Imagenes",
+    "U9 - Imagenes",
+    "U8 - Imagenes",
+    "U7 - Imagenes",
+    "Untitled.canvas",
+    "2024-11-06.md",
+    "m.md",
+    "Welcome.md"
+  ]
+}

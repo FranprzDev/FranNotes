@@ -1,0 +1,10 @@
+{
+  "latex-exporter:export-paper": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ]
+}

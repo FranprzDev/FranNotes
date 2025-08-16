@@ -1,0 +1,47 @@
+---
+toc: true
+---
+## Table of Contents
+
+- [[Big(o)]]
+- DB (NoSQL & SQL)[[]]
+	- [[DB (NoSQL & SQL)/1. Jr|1. Jr]]
+	- [[DB (NoSQL & SQL)/2. Ssr|2. Ssr]]
+	- [[DB (NoSQL & SQL)/3. Sr|3. Sr]]
+- Github
+	- [[Github/1. Jr|1. Jr]]
+	- [[Github/2. Ssr|2. Ssr]]
+	- [[Github/3. Sr|3. Sr]]
+	- [[Comandos de Git]]
+- JS Técnico
+	- [[JavaScript Técnico/1. JR|1. Jr]]
+	- [[JavaScript Técnico/2. SSR|2. Ssr]]
+	- [[JavaScript Técnico/3. SR|3. Sr]]
+- NodeJs / Express
+	- [[Node.js - Express/1. Jr|1. Jr]]
+	- [[Node.js - Express/2. Ssr|2. Ssr]]
+	- [[Node.js - Express/3. Sr|3. Sr]]
+- Patrones de Arquitectura
+	- [[Patrones]]
+- React
+	- Hooks de React
+		- [[Jr]]
+		- [[React/Hooks De React/2. Ssr|2. Ssr]]
+		- [[React/Manejador de Estados Globales/Redux Toolkit/3. Sr|3. Sr]]
+	- Manejador de Estados Globales
+		- Redux Toolkit
+			- [[React/Manejador de Estados Globales/Redux Toolkit/1. Jr|1. Jr]]
+			- [[React/Manejador de Estados Globales/Redux Toolkit/2. Ssr|2. Ssr]]
+			- [[React/Manejador de Estados Globales/Redux Toolkit/3. Sr|3. Sr]]
+		- Zustand
+			- [[React/Manejador de Estados Globales/ZUstand/1. Jr|1. Jr]]
+			- [[React/Manejador de Estados Globales/ZUstand/2. Ssr|2. Ssr]]
+			- [[React/Manejador de Estados Globales/ZUstand/3. Sr|3. Sr]]
+		- Context
+	- Técnicas de React
+		- [[Técnicas]]
+- Testing (Jest)
+	- [[Testing Back]]
+	- [[Testing Front]]
+- TypeScript
+	- [[TypeScript]]
