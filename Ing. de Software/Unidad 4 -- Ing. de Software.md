@@ -1,0 +1,191 @@
+● 4.1 Configuración del Software: Conceptos sobre gestión de la configuración 
+del software
+● 4.2 El proceso de configuración del Software 
+● 4.3 Control de versiones - Control de cambios 
+● 4.4 Despliegue del sistema. 
+● 4.5 Auditoría de la configuración. Tipo y clases de auditorías 
+● 4.6 Auditoría interna y externa - Alcances de la auditoría informática.
+
+
+Bibliografía
+- Sommerviele: Capítulo 25: Administración de la configuración
+- Pressman: Administración de la configuración del software
+
+
+Esto es lo que incluyó vicente hasta **UT4_P1** todo lo que quede por fuera no tengo ni idea que es y espero que no vaya en la recuperación
+-----------------------------------------------------------------------------------------------
+
+
+## Sommerviele
+
+Los sistemas de sw cambian por el uso que se le da, $\exists$ bugs y se deben corregir; los req. cambian y hay que hacer nuevas versiones de los sistemas.  Por lo tanto, se deben adaptar nuevas cosas al sistema; por lo tanto un sistema no se queda en una versión inicial y ahí muere, si no que debemos ir mejorándolo y agregandole cosas.
+La **Administración de la Configuración** se ocupa de las _políticas, los procesos y las herramientas para administrar los sistemas cambiantes de software_
+
+La adm. de la config. es útil para no olvidar que cambios se realizaron, es esencial para cuando muchas personas trabajan para mantener un orden, y principalmente si uno vive en china y el otro en Tucumán para poder sincronizarlos.
+La AC (Administración de la Config.) comprende las sig. actividades (4)
+- **Administración del cambio**: Seguimiento de las peticiones de cambios al software por parte de los clientes y los desarrolladores; estimar los costos y el efecto de realizar dichos cambios. Decidir si se implementa o no.
+	- ![[Pasted image 20251106220825.png]]
+- **Gestión de Versiones**: Esto incluye un seguimiento de las versiones de los componentes del sistema y garantizar que todos tengan los cambios **(GIT & GITHUB -- HOY EN DÍA)**
+- **Construcción del Sistema**: Ensamblar componentes del programa, datos y librería y compilarlos, vincularlos y crear el ejecutable **(CI/CD -- HOY EN DÍA)**
+- **Gestión de entregas**: Preparar el software para las entregas y hacer el seguimiento de las versiones estables del sistema. **RELASES -- HOY EN DÍA (v1.0.0)**
+
+*Aclaración: Las de hoy en día no están en el libro*
+![[Pasted image 20251106221129.png]]
+Los circulitos son actividades, los rectangulitos son lo que "sale" o se entrega
+
+Las políticas y los procesos de administración de la config. definen como se registran y procesan los cambios propuestos en el sistema, es decir qué modificar, como gestionar dichas modificaciones y como distribuirlo al cliente. Existen demasiadas herramientas; pero hoy en día las siguientes son las que se utilizan
+![[Pasted image 20251106221254.png]]
+Github, Jira, Confluence, GDrive, GitLab, Jhenkins, las otras no las conzoco
+
+Esta administración de la config. también utiliza estandares basados en ISO 90001, CMM, CMMI , etc.
+No existen terminología fija; por eso usar la de vicente:
+![[Pasted image 20251106221438.png]]
+
+
+### Administración del Cambio
+El proceso de admin del cambio se ocupa de analizar los costos y beneficios de los cambios propuestos, aprobar aquellos que lo ameritan e indagar cuáles de los componentes del sist se modificaron.
+Existen muchas variantes del proceso, pero deben tener siempre un medio que compruebe, costee y apruebe los cambios.
+El proceso se inicia cuando el cliente **"pide un cambio"** esto podría ser "che quiero que le cambies un color", "che hay tal bug", o cualquier otra cosa que implique desarrollo. el término formal es **CRF (CHANGE REQUEST FORM)** si no puede ser un ticket en jira, como él mostro tranquilamente
+Esta petición de cambio se verifica para ver que sea válida, ej si es un bug veo si se puede replicar, puede ser que un problema que ve el usuario sea una mala interpretación o que solamente el usuario es tonto y no lo está usando bien.
+En el caso de no ser valida se descarta, si es valida se prosigue **evaluando y costeando el cambio** por parte del equipo de desarrollo, ver que implica hacer ese cambio, y la salida son simplemente los **costos totales de dicho cambio**, si se considera ok se hace y se lo entrega al cliente.
+
+#### Consecuencias de no realizar el cambio
+Si no se implementa, y el cambio es una falla del sistema; si es muy grave vamos a tener problemas; si causa la caída es otro problema, puede perturbar el uso del sistema normalmente. Pero si es un detalle estético, cambiarle el color a un botón por ejemplo es totalmente descartable o con prioridad baja.
+
+* En entornos agiles, el cliente prioriza los cambios que se hacen, si le interesa el botón y lo prioriza él entonces se hace.
+
+Hay que evaluar:
+- Los beneficios del cambio
+- El número de afectados por el cambio
+- Los costos de hacer el cambio
+- El ciclo de liberación del producto
+
+No obstante, los cambios que implican mejoramiento del software se dejan a discreción de los programadores que trabajan en el sistema. La **refactorización**, en la que el software se mejora de manera continua, no se ve como una carga, sino como parte necesaria del proceso de desarrollo.
+
+
+---
+Hasta aquí llega en Sommerviele, lo que le sigue a esto; ES LO QUE DIÓ EN LA CLASE DE HOY VICENTE.
+
+
+## Pressman
+Babich decía
+
+``El arte de coordinar el desarrollo de software para minimizar [...] la confusión se llama administración de la configuración, que es el arte de identificar, organizar y controlar las modificaciones que se hacen al software que construirá un equipo de programación. La meta es maximizar la productividad al minimizar los errores
+
+
+Para pressman el cambio es inevitable; y el cambio introduce confusión si no se gestiona correctamente. La **ADMINISTRACIÓN DE LA CONFIGURACIÓN DEL SOFTWARE (ACS)** es una actividad "**sombrilla**" del proceso de software; ya que el cambio puede ocurrir en cualquier momento; sus actividades son:
+1) Identificar el cambio _CRF PARA SOMMERVIELE_
+2) Controlar el cambio _¿ES VIABLE? PARA SOMMERVIELE_
+3) Garantizar que el cambio se implementó de manera adecuada _TESTEARLO_
+4) Reportar los cambios a otros que puedan estar interesados  _PONERLO EN PRODUCCIÓN PARA SOMMERVIELE_
+
+
+Una meta principal de la ingeniería de software es mejorar la facilidad con la que los cambios pueden acomodarse y reducir la cantidad de esfuerzo empleado cuando deban realizarse 
+cambios. En este capítulo se estudian las actividades específicas que permiten administrar 
+el cambio
+
+### Administración de la Configuración del Software
+La salida del proc de software son:
+1) Programas de cómputo 
+2) Productos de trabajo
+3) Datos o contenidos
+
+Todos estos items se llaman colectivamente **configuración del software**
+
+A medida que avanzan, se crea una jerarquía de la configuración del software (ICS), desde un diagrama de uml chiquitito hasta un módulo entero. 
+
+¿Cuál es el origen de los cambios?
+- Nuevas condiciones empresariales de o de mercado.
+- Nuevas necesidad de los accionistas demandan modificación de los datos
+- La reorganización crecimiento/reducción de la empresa.
+- Restricciones presupuestales o de calendario.
+
+
+La administración de la configuración del software es un conjunto de actividades que se desarrollaron para administrar el cambio a lo largo del ciclo de vida del software de computador. La ACS es una **actividad que garantiza** la calidad del software y que se aplica a lo largo de todo el proceso de software.
+
+- Revisar 22.1.1 "Un escenario de ACS" -> Posible pregunta abierta?
+El gerente de proyecto ve la AC como un mecanismo de auditoría; el gerente de configuración la considera un mecanismo de control, rastreo y generación de políticas; el ingeniero de software, como un mecanismo de control de cambio, construcción y acceso; y el cliente la ve como un camino para garantizar la calidad.
+
+Elementos de un sistema de administración de la configuración.
+Susan Dart identifica **4** elementos que deben existir cuando se desarrolla un sist de ac.
+1) **Elementos componentes** Conjunto de herramientas acopladas dentro de un sistema de administración de archivos _(archivos, código, documentación, Base de Datos)_ que permite el acceso a cada item de la configuración.
+2) **Elementos de proceso** Colección de acciones y tareas que definen un enfoque efectivo de la gestión del cambio. _(Son los procedimientos, ejemplo hago un cambio entonces pido un pull request (PR), sería github por ejemplo o gitlab)_
+3) **Elementos de construcción** Conjunto de herramientas que automatizan la construcción de software al asegurarse de que se cambio el conjunto adecuada de componentes. _ci/cd o las pipelines automatiazadas_
+4) **Elementos humanos** Conjunto de herramientas y características del proceso utilizados por personas para implementar ACS efectivamente. _El equipo de desarrollo propiamente_
+
+**Líneas de Referencias**
+La IEEE la define como:
+```
+Una especificación o producto que se revisó formalmente y con el que se estuvo de acuerdo, que a partir de entonces sirve como base para un mayor desarrollo y que puede cambiar sólo a través de procedimientos de control de cambio formal.
+```
+
+Antes de que exista una línea de referencia, se puede hacer cualquier cosa y subir como sea, después de esto, se deben seguir procedimientos formales
+(Cuando vicentin lo explico puso el ejemplo de Main -> Dev -> feat/hice-algo-nuevo) y la línea de ref seria Main. No tengo ni idea si esto va pero lo salto.
+
+### Items de la Configuración del Software
+Es la información que se crea como parte del proceos de Ing. de Soft. Podría considerarse como una sola sección de una gran especificación o como una gran suite de pruebas. De manera realista es toda parte del producto de trabajo.
+
+Los ICS se organizan para dar forma a los **objetos de la configuración**
+(No creo que sea importante, creo que no lo vimos)
+
+
+### El Repositorio ACS (Si lo vimos)
+
+Antes los ICS se mantenían como papeles o tarjetas perforadas; por esto era un re quilombo y después avanzamos y básicamente se mantienen como una **base de datos del proyecto o repositorio**. Un repositorio es **"Cualquier cosa o persona que se considera como centro de acumulación o almacenamiento"**.
+Durante los primeros años el repo era una persona, pero dsp se convirtió en inviable.
+
+El repositorio ACS es el conjunto de mecanismos y estructuras de datos que permiten a un equipo de software administrar el cambio de forma efectiva. Asegura la integridad, posibilita compartir e integrar datos. Además proporciona un centro de integración de la herramienta de software, y es fundamental para el flujo.
+Por esto el repo es un metamodelo que determina como se almacena la infromación en el repo, como se accede y como se utiliza.
+
+El repostiorio debe tener las siguientes caracteristicas:
+- Versiones, conforme avanza el proyecto se crean muchas versiones de productos resultantes individuales; y el repositorio debe guardar todas estas versiones para permitir la administración efectiva de los productos liberados, y regresar a versiones anteriores si hace falta.
+- Le debes poder meter lo q se te cante
+- Se debe poder **rastrear una dependencia y gestionar el cambio** 
+- Se debe poder **rastrear los requerimientos** buscando los componentes de diseño y construcción y los entregables que resulten de la especificación de req.
+- Se debe poder **administrar la configuración**, la serie de configs que representan hitos para el proyecto, las liberaciones a prod.
+- Debe ser viable para hacer **auditorias**.
+
+### El proceso de ACS
+Tiene 4 objetivos princiapesl
+1) **Identificar todos los items de manera colectiva definen la config. del software.**
+2) **Administrar los cambios a uno o más de estos items**
+3) **Facilitar la construcción de diferentes versiones de la app**
+4) **Garantizar la calidad del soft se conserva a través del tiempo.**
+
+Responde a las siguientes preguntas:
+- ¿Cómo identifica un equipo de software los elementos discretos de una configuración de software?
+- ¿Cómo gestiona una organización las muchas versiones existentes de un programa (y su documentación) de manera que permita que el cambio se acomode eficientemente
+- ¿Cómo controla una organización los cambios antes y después de que el software se 
+libera a un cliente?
+- ¿Quién tiene la responsabilidad de aprobar y clasificar los cambios solicitados?
+- ¿Cómo puede garantizarse que los cambios se realizaron adecuadamente?
+- ¿Qué mecanismo se usa para enterar a otros acerca de los cambios que se realizaron?
+![[Pasted image 20251106225501.png]]
+
+
+Se visualizan como capas concéntricas, fluyen hacia afuera (de adentro a afuera) a lo largo de su vida útil, al final volviendose parte de la config del software.
+No es necesario que todas las acciones sean aplicables.
+
+
+#### Identificación de obj de la config.
+Todos deben nombrarse por separado y luego organizarse en enfoque orientado a objetos.
+
+Explicación de cada capa (full ia)
+
+1.  **Identificación (de objetos):**
+    Es el paso inicial para controlar y administrar los ítems de configuración, asignando un nombre único y organizándolos, a menudo usando un enfoque orientado a objetos. Esta tarea busca definir **objetos básicos** (unidades de información como código fuente o parte de un modelo) y **objetos agregados** (colecciones de objetos básicos y otros agregados).
+
+2.  **ICS (Ítem de Configuración del Software):**
+    Es un elemento de información nominado que se crea como parte del proceso de ingeniería de software. Un ICS podría ser desde un solo diagrama UML o un conjunto de casos de prueba, hasta un documento de diseño completo. Colectivamente, los ICS comprenden toda la información producida como parte del proceso del software (programas, documentación y datos).
+
+3.  **Control de versión:**
+    Combina procedimientos y herramientas para gestionar las diferentes versiones de los objetos de configuración que se generan durante el desarrollo del software. Un sistema de control de versión debe almacenar todas las versiones de un objeto y permitir la construcción de una versión específica del software.
+
+4.  **Control de cambio:**
+    Es un mecanismo que utiliza procedimientos y herramientas automatizadas para gestionar las modificaciones al software. Este proceso incluye evaluar las peticiones de cambio (para mérito técnico, impacto y costo), tomar una decisión mediante una Autoridad de Control de Cambio (ACC) y, si se aprueba, generar una Orden de Cambio de Ingeniería (OCI).
+
+5.  **Auditoría de la config (Auditoría de configuración del software):**
+    Es una actividad del Aseguramiento de la Calidad del Software (ACS) que complementa la revisión técnica. Su propósito es garantizar que los cambios se implementaron de manera adecuada y que se siguieron los procedimientos ACS y los estándares de ingeniería de software. También verifica que la documentación relacionada se haya actualizado.
+
+6.  **Reportaje (Reporte de estado de la configuración):**
+    Es una tarea del proceso ACS que proporciona información sobre qué ocurrió, quién lo hizo, cuándo y qué más se verá afectado por los cambios. Cada vez que un ICS recibe una nueva identificación o se actualiza, se realiza una entrada de reporte de estado, y los resultados de las auditorías también se informan a través de esta tarea.

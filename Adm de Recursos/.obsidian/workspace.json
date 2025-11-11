@@ -1,56 +1,37 @@
 {
   "main": {
-    "id": "778d40dd5c5f3e00",
+    "id": "70802daa2fd6e941",
     "type": "split",
     "children": [
       {
-        "id": "4bac9efd4ede6fa9",
+        "id": "4b0bca7a2cd67ca4",
         "type": "tabs",
         "children": [
           {
-            "id": "ccbe87af0a9ee332",
+            "id": "409875041cee6cdd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Eng Clase 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Data Eng Clase 1"
-            }
-          },
-          {
-            "id": "22f3e8a0676e9157",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Eng Clase 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Eng Clase 2"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f352e334115fe8e8",
+    "id": "d88dba661e320cae",
     "type": "split",
     "children": [
       {
-        "id": "33dbf0d6b63302ec",
+        "id": "25271267311817e9",
         "type": "tabs",
         "children": [
           {
-            "id": "8d0323927b556e2d",
+            "id": "309937bfb5696ba6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +44,7 @@
             }
           },
           {
-            "id": "ed2a1e40bb5b243a",
+            "id": "8fbe0602b4b528cf",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +61,7 @@
             }
           },
           {
-            "id": "728a1bc3d2e89a16",
+            "id": "08704b7f2b796448",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,20 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "66db68b0eee0deca",
+    "id": "f8b9a660e2d78599",
     "type": "split",
     "children": [
       {
-        "id": "6263939ecb081c9e",
+        "id": "5ad0c0f0815a1746",
         "type": "tabs",
         "children": [
           {
-            "id": "1be650ed277bc5bf",
+            "id": "6973358d567da4d8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "PDF2 -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for PDF2 -"
             }
           },
           {
-            "id": "139d2f8b2825729a",
+            "id": "56b1fc49c0dc2f9c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "PDF2 -.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from PDF2 -"
             }
           },
           {
-            "id": "67ee2c0242a2f204",
+            "id": "b57145292c254c35",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,18 +133,18 @@
             }
           },
           {
-            "id": "00259d754fc66016",
+            "id": "65636d116ba5ba6f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "PDF2 -.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of PDF2 -"
             }
           }
         ]
@@ -175,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,11 +165,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22f3e8a0676e9157",
+  "active": "309937bfb5696ba6",
   "lastOpenFiles": [
-    "Data Eng Clase 1.md",
-    "Data Eng Clase 2.md",
-    "Welcome.md",
-    "Rc - n8n.md"
+    "Img/Pasted image 20250908002930.png",
+    "Unidad 4 -- Ing. de Software.md",
+    "Control de Calidad - Vicente.md",
+    "Primer Parcial/PDF1 - Administración Estrátegica.md",
+    "Primer Parcial",
+    "Img/parciales viejos.md",
+    "Img/Imagen de WhatsApp 2025-09-08 a las 03.41.14_e49660cc.jpg",
+    "Img/Pasted image 20251106225501.png",
+    "Img/Pasted image 20251106221438.png",
+    "Primer Parcial/PDF2 - Administración Estratégica.md",
+    "Primer Parcial/PDF3 - Auditora Informática (Marrón).md",
+    "Primer Parcial/PDF3 - Auditoria Informática (Azul).md",
+    "Img/Pasted image 20251106221254.png",
+    "Img/Pasted image 20251106221129.png",
+    "Img/Pasted image 20251106220825.png",
+    "Img/Pasted image 20251008215245.png",
+    "Img/Pasted image 20250908034657.png",
+    "Img/Pasted image 20250908034648.png",
+    "Img/Pasted image 20250908034628.png",
+    "Img",
+    "Welcome.md"
   ]
 }
