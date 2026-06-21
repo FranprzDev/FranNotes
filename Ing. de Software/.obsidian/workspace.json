@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "74097b1cf077ab15",
+        "id": "a643a437ab27df04",
         "type": "tabs",
         "children": [
           {
-            "id": "4cc98135696d1fd9",
+            "id": "26382b4c4cfd9748",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control de Calidad - Vicente.md",
+                "file": "2do Parcial/Unidad 5/PPTX-VICENTÍN - El proyecto de software y métricas del software.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Control de Calidad - Vicente"
+              "title": "PPTX-VICENTÍN - El proyecto de software y métricas del software"
+            }
+          },
+          {
+            "id": "e330f8d20087420d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2do Parcial/Unidad 4/1.PPTX-VICENTÍN - Administración del Cambio.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.PPTX-VICENTÍN - Administración del Cambio"
+            }
+          },
+          {
+            "id": "54270792e58bd769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2do Parcial/Unidad 3/PPTX-VICENTÍN - Mejora de Procesos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PPTX-VICENTÍN - Mejora de Procesos"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +73,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -160,19 +189,41 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
     }
   },
-  "active": "4cc98135696d1fd9",
+  "active": "54270792e58bd769",
   "lastOpenFiles": [
-    "Unidad 4 -- Ing. de Software.md",
-    "Control de Calidad - Vicente.md",
+    "2do Parcial/Unidad 4/1.PPTX-VICENTÍN - Administración del Cambio.md",
+    "2do Parcial/Unidad 4/2.PPTX-VICENTÍN - Despliegue.md",
+    "2do Parcial/Unidad 4/3.PPTX-VICENTÍN - Auditoria.md",
+    "2do Parcial/Unidad 4/4.PPTX-VICENTÍN - IEEE Std 1028-2008, IEEE Standard for Software Reviews and Audits.md",
+    "2do Parcial/Unidad 5/PPTX-VICENTÍN - El proyecto de software y métricas del software.md",
+    "Imagenes/Pasted image 20251126025405.png",
+    "Imagenes/Pasted image 20251126025818.png",
+    "Resumen integral de la codebase.md",
+    "2do Parcial/Unidad 3/PPTX-VICENTÍN - Mejora de Procesos.md",
+    "Imagenes/Pasted image 20251126025759.png",
+    "Imagenes/Pasted image 20251126025747.png",
+    "Imagenes/Pasted image 20251126025721.png",
+    "Imagenes/Pasted image 20251126021604.png",
+    "Imagenes/Pasted image 20251126022439.png",
+    "Imagenes/Pasted image 20251126022433.png",
+    "Imagenes/Pasted image 20251126015434.png",
+    "Imagenes/Pasted image 20251126021326.png",
+    "Ejercicios de Vicente/Control de Calidad - Vicente.md",
+    "Imagenes",
+    "Ejercicios de Vicente",
+    "2do Parcial",
+    "2do Parcial/Unidad 5",
+    "2do Parcial/Unidad 4",
+    "2do Parcial/Unidad 3",
     "Welcome.md"
   ]
 }
